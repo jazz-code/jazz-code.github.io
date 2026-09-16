@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jéssica Frade | Portfólio BI</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #f2c94c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    padding: 60px 20px 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+  }
+  header p {
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  .links {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .links a {
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .links a:hover {
+    border-color: var(--accent);
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    transition: border-color 0.2s ease;
+  }
+  .card:hover {
+    border-color: var(--accent);
+  }
+  .card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+  }
+  .card p {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+  }
+  .card a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .tag {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jéssica Frade</h1>
+  <p>Análise de Dados &amp; Business Intelligence</p>
+  <div class="links">
+    <a href="mailto:seuemail@gmail.com">E-mail</a>
+    <a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a>
+    <a href="https://github.com/jazz-code" target="_blank">GitHub</a>
+  </div>
+</header>
+
+<main>
+
+  <section>
+    <h2>Sobre</h2>
+    <p>
+      Analista com experiência em Business Intelligence, relatórios em Power BI,
+      automação de processos e análise de dados financeiros e administrativos.
+      Este espaço reúne projetos desenvolvidos para praticar e demonstrar essas
+      habilidades, com dados fictícios ou públicos.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projetos</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Nome do Projeto 1</h3>
+        <p>Breve descrição do dashboard: problema de negócio, dados usados e KPIs principais.</p>
+        <a href="#" target="_blank">Ver dashboard →</a>
+      </div>
+
+      <div class="card">
+        <h3>Nome do Projeto 2</h3>
+        <p>Breve descrição do dashboard: problema de negócio, dados usados e KPIs principais.</p>
+        <a href="#" target="_blank">Ver dashboard →</a>
+      </div>
+
+      <div class="card">
+        <h3>Nome do Projeto 3</h3>
+        <p>Breve descrição do dashboard: problema de negócio, dados usados e KPIs principais.</p>
+        <a href="#" target="_blank">Ver dashboard →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="tags">
+      <span class="tag">Power BI</span>
+      <span class="tag">DAX</span>
+      <span class="tag">Power Query (M)</span>
+      <span class="tag">Power Automate</span>
+      <span class="tag">SQL</span>
+      <span class="tag">Python</span>
+      <span class="tag">Excel Avançado</span>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Feito por Jéssica Frade · Atualizado em 2026
+</footer>
+
+</body>
+</html>
